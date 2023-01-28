@@ -26,7 +26,7 @@ const forgotPassword = async (req, res) => {
         },
       });
       let details = {
-        from: "sivanathanv36@gmail.com", // sender address
+        from: "kirubaharan8878m@gmail.com", // sender address
         to: user.email, // list of receivers
         subject: "Hello ✔", // Subject line
         text: `Reset link`, // plain text body
